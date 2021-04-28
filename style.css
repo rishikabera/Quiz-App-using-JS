@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('gradienta.jpg');
+  
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    margin-top: 170px;
+}
+
+.quiz-container{
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 0 10px 10px rgba(15, 15, 14, 0.1);
+    width:500px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header
+{
+
+    padding: 2rem;
+}
+ul{
+
+    list-style-type: none;
+    padding: 0;
+}
+
+
+h2{
+    text-align: center;
+    
+}
+ul li{
+
+    margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color:teal;
+    border: none;
+    color: white;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+    
+    
+    }
+
+    button:hover{
+
+        background-color: tomato;
+    }
